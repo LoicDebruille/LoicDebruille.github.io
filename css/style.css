@@ -10,13 +10,14 @@ body {
 #photo-profil {
   width: 18rem;
   border-radius: 100%;
+  border: #466362 solid 5px;
   margin-top: 5rem;
 }
 
 header {
   text-align: center;
   color: aliceblue;
-  background-image: url(../images/hero.webp);
+  background-image: url(../images/bridgeDarkness.jpeg);
   background-size: cover;
   font-size: 2rem;
 }
@@ -24,14 +25,14 @@ header {
 .refHeader {
   font-size: 1rem;
   color: white;
-  background: #4da1a9;
+  background: #466362;
   width: 20px;
   padding: 5px 10px 5px 10px;
   margin: 5px;
 }
 
 nav a {
-  color: aliceblue;
+  color: white;
   font-size: 1rem;
   padding: 5px;
 }
@@ -42,7 +43,7 @@ nav a {
 #aProposDeMoi {
   color: black;
   display: flex;
-  margin: 5rem;
+  margin: 3rem;
   box-shadow: 4px 5px 15px -2px;
   /*border: black solid 2px;*/
   /*background-color: #2e5077;*/
@@ -60,4 +61,142 @@ nav a {
 
 .aproposDeMoi-Basic h2 {
   padding: 2px;
+}
+
+/**---------- COMPETENCE ----------**/
+
+#competence {
+  color: black;
+  display: flex;
+  margin: 3rem;
+  padding: 10px;
+  box-shadow: 4px 5px 15px -2px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.barre {
+  display: inline-block;
+}
+
+#competence h2 {
+  text-align: center;
+  color: #466362;
+  font-weight: bold;
+}
+
+/**---------- EXPERIENCE ----------**/
+
+#experience h2 {
+  text-align: center;
+  color: #466362;
+  font-weight: bold;
+}
+
+#experience {
+  color: black;
+  display: flex;
+  margin: 3rem;
+  box-shadow: 4px 5px 15px -2px;
+  flex-direction: column;
+}
+
+.experience-Bloc {
+  display: flex;
+  border: solid #466362 1px;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.experience-info {
+  font-weight: bold;
+  background-color: #466362;
+  color: white;
+  width: 30%;
+  padding: 1rem;
+}
+
+.experience-info-text {
+  width: 70%;
+  padding: 1rem;
+}
+
+#experience a {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/**---------- FORMATION ----------**/
+
+#formation {
+  color: black;
+  display: flex;
+  margin: 3rem;
+  box-shadow: 4px 5px 15px -2px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#formation h2 {
+  text-align: center;
+  color: #466362;
+  font-weight: bold;
+}
+
+.formation-info {
+  color: black;
+  border: solid #466362 1px;
+  display: flex;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formation-info h3 {
+  text-align: center;
+  display: inline;
+  color: white;
+  background-color: #466362;
+}
+
+#formation a {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/**---------- PORTOFOLIO ----------**/
+
+#portofolio {
+  color: black;
+  display: flex;
+  margin: 3rem;
+  box-shadow: 4px 5px 15px -2px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#portofolio h2 {
+  text-align: center;
+  color: #466362;
+  font-weight: bold;
+}
+
+#portofolio a {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/**---------- CONTACTER MOI ----------**/
+
+#contact {
+  color: black;
+  display: flex;
+  margin: 3rem;
+  box-shadow: 4px 5px 15px -2px;
+  flex-direction: column;
+  padding: 10px;
 }
