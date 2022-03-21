@@ -147,13 +147,23 @@ nav a {
 }
 
 .formation-info {
-  color: black;
-  border: solid #466362 1px;
   display: flex;
-  margin: 0.5rem;
-  padding: 0.2rem;
-  flex-direction: column;
-  align-items: flex-start;
+  border: solid #466362 1px;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.formation_info-type {
+  font-weight: bold;
+  background-color: #466362;
+  color: white;
+  width: 30%;
+  padding: 1rem;
+}
+
+.formation_info-resume {
+  width: 70%;
+  padding: 1rem;
 }
 
 .formation-info h3 {
@@ -161,6 +171,10 @@ nav a {
   display: inline;
   color: white;
   background-color: #466362;
+}
+
+.formation_info-type .date {
+  text-align: right;
 }
 
 #formation a {
@@ -199,4 +213,38 @@ nav a {
   box-shadow: 4px 5px 15px -2px;
   flex-direction: column;
   padding: 10px;
+  background-image: url(../images/carte.png);
+  background-size: cover;
+  height: 400px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc {
+  background-color: white;
+  box-shadow: 4px 5px 15px -2px;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.contacterMoi-div {
+  margin: 0rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  color: #466362;
+}
+
+/**---------- MEDIA QUERY ----------**/
+
+/**---------- FOOTER ----------**/
+
+footer {
+  text-align: center;
 }
