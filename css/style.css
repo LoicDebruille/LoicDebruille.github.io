@@ -82,6 +82,13 @@ nav a {
   display: inline-block;
 }
 
+.skill-barre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #competence h2 {
   text-align: center;
   color: #466362;
