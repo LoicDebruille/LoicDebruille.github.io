@@ -5,13 +5,16 @@
   #nav {
     text-align: center;
     position: sticky;
-    top: 1px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  #nav {
-    text-align: center;
-    position: sticky;
-    top: 1px;
+  #nav a {
+    margin: 0rem;
+    padding: 2px;
   }
 
   /* APROPOS DE MOI */
@@ -49,6 +52,14 @@
     width: 100%;
   }
 
+  .experience-info-text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .formation_info-resume {
+    width: 100%;
+  }
   /* FORMATION */
 
   .formation-info {
@@ -62,7 +73,17 @@
   /* CONTACT */
 
   .bloc {
-    width: 70%;
+    width: 95%;
+  }
+
+  .bloc h2 {
+    font-size: 1rem;
+    padding: 1px;
+  }
+
+  .contacterMoi-div {
+    font-size: 1rem;
+    padding: 8px;
   }
 }
 
