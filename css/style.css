@@ -5,6 +5,20 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#nav {
+  background-color: #349b97;
+  margin: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 2px;
+}
+
+#nav a {
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+  margin: 5px;
+}
 /*---------- STYLE HEADER ----------*/
 
 #photo-profil {
@@ -17,24 +31,20 @@ body {
 header {
   text-align: center;
   color: aliceblue;
-  background-image: url(../pictures/img/wallpaperbridge2.jpeg);
+  background-image: url(../pictures/img/bridgeDarkness.jpeg);
   background-size: cover;
+  background-position: center;
   font-size: 2rem;
 }
 
 .refHeader {
+  display: inline-block;
   font-size: 1rem;
   color: white;
   background: #466362;
-  width: 20px;
+  width: 10rem;
   padding: 5px 10px 5px 10px;
   margin: 5px;
-}
-
-nav a {
-  color: white;
-  font-size: 1rem;
-  padding: 5px;
 }
 
 /*---------- MAIN ----------*/
@@ -43,20 +53,18 @@ nav a {
 #aProposDeMoi {
   color: black;
   display: flex;
-  margin: 3rem;
+  margin: 1rem 3rem 1rem 3rem;
   box-shadow: 4px 5px 15px -2px;
-  /*border: black solid 2px;*/
-  /*background-color: #2e5077;*/
 }
 
 .aproposDeMoi-info {
-  padding: 10px;
   width: 60%;
+  padding: 3rem;
 }
 
 .aproposDeMoi-Basic {
-  padding: 10px;
   width: 40%;
+  padding: 3rem;
 }
 
 .aproposDeMoi-Basic h2 {
@@ -68,18 +76,23 @@ nav a {
 #competence {
   color: black;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin: 3rem;
   padding: 10px;
   box-shadow: 4px 5px 15px -2px;
+
   justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .barre {
   display: inline-block;
+}
+
+#skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .skill-barre {
@@ -95,12 +108,16 @@ nav a {
   font-weight: bold;
 }
 
+#competence a {
+  text-align: center;
+}
 /**---------- EXPERIENCE ----------**/
 
 #experience h2 {
   text-align: center;
   color: #466362;
   font-weight: bold;
+  padding: 1rem;
 }
 
 #experience {

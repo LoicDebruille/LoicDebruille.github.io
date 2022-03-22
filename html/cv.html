@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reboot.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleMediaQuery.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,17 +23,18 @@
         <p>Développeur Web et Web mobil junior</p>
         <a class="refHeader" href="#contact">Contactez moi</a><a class="refHeader"
             href="https://www.linkedin.com/in/lo%C3%AFc-debruille-23a041185/"> Linkdin </a>
-        <nav>
-            <a href="#aProposDeMoi">A propos de moi</a>
+    </header>
+
+    <main>
+        <nav id="nav">
+            <a href="#photo-profil">Home</a>
             <a href="#competence">Compétences</a>
             <a href="#experience">Expériences</a>
             <a href="#formation">Formations</a>
             <a href="#portofolio">Portofolio</a>
             <a href="#contact">Contact</a>
         </nav>
-    </header>
 
-    <main>
         <section id="aProposDeMoi">
             <div class="aproposDeMoi-info">
                 <h2>A propos de moi</h2>
@@ -53,35 +55,37 @@
                 <ul>
                     <li><strong>Age : </strong> 41</li>
                     <li><strong>Status : </strong> Marié, 2 enfants</li>
-                    <li><strong>Mobilité : </strong>Permis B</li>
-                    <li><strong> Disponibilité : </strong>immediate</li>
+                    <li><strong>Personnalité :</strong>Adaptable, Organisé, Sens de l'écoute</li>
+                    <li><strong> Centre d'intêret : </strong>Voyage, nouvelle technologie </li>
+                    <li><strong> Mobilité : </strong>Permis B</li>
                 </ul>
             </div>
         </section>
 
         <section id="competence">
             <h2>Compétences</h2>
-            <div class="skill-barre">
-                <label for="skill">HTML : </label>
-                <img class="icon" src="../pictures/Logo/icons8-html-5-144.png">
-                <progress id="skillhtml" max="100" value="70"> 70% </progress>
-            </div>
-            <div class="skill-barre">
-                <label for="skill">CSS : </label>
-                <img class="icon" src="../pictures/Logo/icons8-css3-144.png">
-                <progress id="skillcss" max="100" value="70"> 70% </progress>
-            </div>
-            <div class="skill-barre">
-                <label for="skill">PHP : </label>
-                <img class="icon" src="../pictures/Logo/icons8-html-5-144.png">
-                <progress id="skillphp" max="100" value="70"> 70% </progress>
-            </div>
-            <div class="skill-barre">
-                <label for="skill">JavaScript : </label>
-                <img class="icon" src="../pictures/Logo/icons8-javascript-144.png">
-                <progress id="skilljavascript" max="100" value="70"> 70% </progress>
-            </div>
-            <a href="#photo-profil">Retour menu</a>
+            <section id="skill">
+                <div class="skill-barre">
+                    <label for="skill">HTML : </label>
+                    <img class="icon" src="../pictures/Logo/icons8-html-5-144.png">
+                    <progress id="skillhtml" max="100" value="50"> 50% </progress>
+                </div>
+                <div class="skill-barre">
+                    <label for="skill">CSS : </label>
+                    <img class="icon" src="../pictures/Logo/icons8-css3-144.png">
+                    <progress id="skillcss" max="100" value="50"> 50% </progress>
+                </div>
+                <div class="skill-barre">
+                    <label for="skill">PHP : </label>
+                    <img class="icon" src="../pictures/Logo/icons8-html-5-144.png">
+                    <progress id="skillphp" max="100" value="30"> 30% </progress>
+                </div>
+                <div class="skill-barre">
+                    <label for="skill">JavaScript : </label>
+                    <img class="icon" src="../pictures/Logo/icons8-javascript-144.png">
+                    <progress id="skilljavascript" max="100" value="30"> 30% </progress>
+                </div>
+            </section>
         </section>
 
         <section id="experience">
@@ -148,7 +152,6 @@
                     </p>
                 </div>
             </div>
-            <a href="#photo-profil">Retour menu</a>
         </section>
 
         <section id="formation">
@@ -190,13 +193,11 @@
                     <span>Lycée La Briquerie - Thionville, 57</span>
                 </div>
             </div>
-            <a href="#photo-profil">Retour menu</a>
         </section>
 
         <section id="portofolio">
             <h2>Portofolio</h2>
             <p> A venir</p>
-            <a href="#photo-profil">Retour menu</a>
         </section>
 
         <section id="contact">
@@ -213,7 +214,7 @@
         </section>
     </main>
     <footer>
-        <h3>Loïc debruille 2022</h3>
+        <h3>@Loïc debruille 2022</h3>
     </footer>
 </body>
 

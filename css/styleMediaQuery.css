@@ -1,0 +1,81 @@
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100vh;
+  }
+
+  #nav {
+    text-align: center;
+    position: sticky;
+    top: 1px;
+  }
+
+  #nav {
+    text-align: center;
+    position: sticky;
+    top: 1px;
+  }
+
+  /* APROPOS DE MOI */
+
+  #aProposDeMoi {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aproposDeMoi-info,
+  .aproposDeMoi-Basic {
+    padding: 10px;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* COMPETENCE */
+
+  #skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  /* EXPERIENCE */
+
+  .experience-Bloc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-info {
+    width: 100%;
+  }
+
+  /* FORMATION */
+
+  .formation-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formation_info-type {
+    width: 100%;
+  }
+  /* CONTACT */
+
+  .bloc {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .bloc {
+    width: 70%;
+  }
+
+  #skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
