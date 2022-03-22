@@ -17,7 +17,7 @@ body {
 header {
   text-align: center;
   color: aliceblue;
-  background-image: url(../images/bridgeDarkness.jpeg);
+  background-image: url(../pictures/img/wallpaperbridge2.jpeg);
   background-size: cover;
   font-size: 2rem;
 }
@@ -213,7 +213,7 @@ nav a {
   box-shadow: 4px 5px 15px -2px;
   flex-direction: column;
   padding: 10px;
-  background-image: url(../images/carte.png);
+  background-image: url(../pictures/img/carteSF.png);
   background-size: cover;
   height: 400px;
   align-content: center;
@@ -227,7 +227,7 @@ nav a {
   width: 50%;
   height: 300px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
@@ -238,9 +238,11 @@ nav a {
   margin: 0rem;
   margin-bottom: 0.5rem;
   padding: 0.5rem;
-  color: #466362;
 }
 
+.contacterMoi-div .a {
+  color: #110eda;
+}
 /**---------- MEDIA QUERY ----------**/
 
 /**---------- FOOTER ----------**/
