@@ -23,6 +23,7 @@
     color: black;
     display: flex;
     flex-direction: column;
+    margin: 10px;
   }
 
   .aproposDeMoi-info,
@@ -34,6 +35,10 @@
 
   /* COMPETENCE */
 
+  #competence {
+    margin: 10px;
+  }
+
   #skill {
     display: flex;
     flex-direction: row;
@@ -43,9 +48,14 @@
 
   /* EXPERIENCE */
 
+  #experience {
+    margin: 10px;
+  }
+
   .experience-Bloc {
     display: flex;
     flex-direction: column;
+    margin: 5px;
   }
 
   .experience-info {
@@ -57,20 +67,40 @@
     padding: 1rem;
   }
 
+  .formation {
+    margin: 2px;
+  }
+
   .formation_info-resume {
     width: 100%;
   }
   /* FORMATION */
 
+  #formation {
+    margin: 10px;
+    padding: 0;
+  }
+
   .formation-info {
     display: flex;
     flex-direction: column;
+    margin: 5px;
   }
 
   .formation_info-type {
     width: 100%;
   }
+
+  /* PORTOFOLIO */
+
+  #portofolio {
+    margin: 10px;
+  }
   /* CONTACT */
+
+  #contact {
+    margin: 10px;
+  }
 
   .bloc {
     width: 95%;
