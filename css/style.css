@@ -71,6 +71,60 @@ header {
   padding: 2px;
 }
 
+.container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 6px 2px;
+  grid-template-areas:
+    "Div1 Rep1"
+    "Div2 Rep2"
+    "div3 Rep3"
+    "div4 Rep4"
+    "div5 Rep5"
+    "div6 Rep6";
+}
+.Div1 {
+  grid-area: Div1;
+}
+.Div2 {
+  grid-area: Div2;
+}
+.div3 {
+  grid-area: div3;
+}
+.div4 {
+  grid-area: div4;
+}
+.div5 {
+  grid-area: div5;
+}
+.div6 {
+  grid-area: div6;
+}
+.Rep2 {
+  grid-area: Rep2;
+}
+.Rep1 {
+  grid-area: Rep1;
+}
+.Rep3 {
+  grid-area: Rep3;
+}
+.Rep4 {
+  grid-area: Rep4;
+}
+.Rep5 {
+  grid-area: Rep5;
+}
+.Rep6 {
+  grid-area: Rep6;
+}
+
+.DivIndex {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #466362;
+}
 /**---------- COMPETENCE ----------**/
 
 #competence {
@@ -239,7 +293,7 @@ header {
   padding: 10px;
   background-image: url(../pictures/img/carteSF.png);
   background-size: cover;
-  height: 400px;
+  height: 600px;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -248,8 +302,8 @@ header {
 .bloc {
   background-color: white;
   box-shadow: 4px 5px 15px -2px;
-  width: 50%;
-  height: 300px;
+  width: 80%;
+  height: 555px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -267,6 +321,7 @@ header {
 .contacterMoi-div .a {
   color: #110eda;
 }
+
 /**---------- MEDIA QUERY ----------**/
 
 /**---------- FOOTER ----------**/

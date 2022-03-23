@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="Fr">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
         <h1>Loïc Debruille</h1>
         <p>Développeur Web et Web mobil junior</p>
         <a class="refHeader" href="#contact">Contactez moi</a><a class="refHeader"
-            href="https://www.linkedin.com/in/lo%C3%AFc-debruille-23a041185/"> Linkdin </a>
+            href="https://www.linkedin.com/in/lo%C3%AFc-debruille-23a041185/"> Linkedin </a>
     </header>
 
     <main>
@@ -54,13 +54,34 @@
             </div>
             <div class="aproposDeMoi-Basic">
                 <h2>Info basic</h2>
-                <ul>
-                    <li><strong>Age : </strong> 41</li>
-                    <li><strong>Status : </strong> Marié, 2 enfants</li>
-                    <li><strong>Personnalité : </strong>adaptabilité, organisation, Sens de l'écoute</li>
-                    <li><strong> Centre d'intêret : </strong>Voyage, nouvelle technologie, nature </li>
-                    <li><strong> Mobilité : </strong>Permis B</li>
-                </ul>
+                <div class="container">
+                    <div class="Div1, DivIndex">Age :</div>
+                    <div class="Div2, DivIndex ">Status :</div>
+                    <div class="div3, DivIndex">Email :</div>
+                    <div class="div4, DivIndex">GSM :</div>
+                    <div class="div5, DivIndex">Adresse :</div>
+                    <div class="div6, DivIndex">Mobilité :</div>
+                    <div class="Rep2">41</div>
+                    <div class="Rep1">Marié, 2 enfants</div>
+                    <div class="Rep3">loic.debruille57@gmail.com</div>
+                    <div class="Rep4">(+33) 0648520227</div>
+                    <div class="Rep5">8 impasse du Rossignol 57550 Falck (France)</div>
+                    <div class="Rep6">Permis B</div>
+                </div>
+                <!-- <ul>
+                    <li><strong>Age : </strong></li>
+                    <li>41</li>
+                    <li><strong>Status : </strong></li>
+                    <li>Marié, 2 enfants</li>
+                    <li><strong>Email : </strong></li>
+                    <li>loic.debruille57@gmail.com</li>
+                    <li><strong> GSM : </strong></li>
+                    <li>(+33) 0648520227</li>
+                    <li><strong> Adresse : </strong></li>
+                    <li>8 impasse du Rossignol 57550 Falck (France)</li>
+                    <li><strong> Mobilité : </strong></li>
+                    <li>Permis B</li>
+                </ul> -->
             </div>
             <div id="retour-competence"></div>
         </section>
@@ -80,7 +101,7 @@
                 </div>
                 <div class="skill-barre">
                     <label for="skill">PHP : </label>
-                    <img class="icon" src="./pictures/Logo/icons8-html-5-144.png">
+                    <img class="icon" src="./pictures/Logo/icons8-logo-php-128.png">
                     <progress id="skillphp" max="100" value="30"> 30% </progress>
                 </div>
                 <div class="skill-barre">
@@ -210,13 +231,37 @@
         <section id="contact">
             <div class="bloc">
                 <h2>Contactez moi</h2>
-                <div class="contactezMoi">
+                <!--<div class="contactezMoi">
                     <p class="contacterMoi-div">Phone number : +33 0648520227</p>
                     <p class="contacterMoi-div">Adresse : 8 impasse du Rossignol Falck (France)</p>
                     <a class="contacterMoi-div" href="mailto:loic.debruille57@gmail.com?subject=recrutement"
                         title="">Mail :
                         loic.debruille57@gmail.com</a>
-                </div>
+                </div> -->
+                <form id="form" action="" method="post">
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+                        <div class="form-row">
+                            <label for="prenom">Votre socièté</label>
+                            <input type="text" id="prenom" placeholder="raison social" name="prenom">
+                        </div>
+                        <div class="form-row">
+                            <label for="nom">Identité</label>
+                            <input type="text" id="nom" placeholder="Nom" name="nom">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-row">
+                            <label for="email">Répondez-moi via</label>
+                            <input type="email" id="email" placeholder="Adresse e-mail" name="email" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="message">Votre message</label>
+                            <textarea id="message" placeholder="Votre message" name="message"></textarea>
+                        </div>
+                    </fieldset>
+                    <button id="submit-form">Envoyer</button>
+                </form>
             </div>
         </section>
     </main>

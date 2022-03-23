@@ -103,7 +103,8 @@
   }
 
   .bloc {
-    width: 105%;
+    width: 100%;
+    padding-left: 35px;
   }
 
   .bloc h2 {
