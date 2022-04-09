@@ -11,18 +11,17 @@ body {
 
 #nav {
   background-color: var(--main-bg-color);
-  margin: 1rem;
   text-align: center;
   position: sticky;
   top: 2px;
 }
 
-#nav a {
+/* #nav a {
   color: white;
   font-size: 1rem;
   padding: 5px;
   margin: 5px;
-}
+} */
 
 a:hover {
   color: #da7416;
