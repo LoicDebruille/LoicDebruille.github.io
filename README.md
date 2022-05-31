@@ -1,3 +1,5 @@
 # LoicDebruille.github.io
 
-## Mon CV 
+## Mon CV
+
+réalisé en html/css
