@@ -52,6 +52,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   /* EXPERIENCE */
@@ -135,6 +136,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .skill-barre {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
   }
 }

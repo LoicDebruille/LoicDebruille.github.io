@@ -65,12 +65,10 @@ header {
 }
 
 .aproposDeMoi-info {
-  width: 60%;
   padding: 3rem;
 }
 
 .aproposDeMoi-Basic {
-  width: 40%;
   padding: 3rem;
 }
 
@@ -87,8 +85,7 @@ header {
     "Div2 Rep2"
     "div3 Rep3"
     "div4 Rep4"
-    "div5 Rep5"
-    "div6 Rep6";
+    "div5 Rep5";
 }
 .Div1 {
   grid-area: Div1;
@@ -105,9 +102,6 @@ header {
 .div5 {
   grid-area: div5;
 }
-.div6 {
-  grid-area: div6;
-}
 .Rep2 {
   grid-area: Rep2;
 }
@@ -122,9 +116,6 @@ header {
 }
 .Rep5 {
   grid-area: Rep5;
-}
-.Rep6 {
-  grid-area: Rep6;
 }
 
 .DivIndex {
@@ -153,24 +144,31 @@ header {
 #skill {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#competence h2 {
+  display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+#competence a {
+  text-align: center;
+}
+
+.icon {
+  width: 144px;
+  height: 144px;
 }
 
 .skill-barre {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-}
-
-#competence h2 {
-  text-align: center;
-  color: var(--main-bg-color);
-  font-weight: bold;
-}
-
-#competence a {
-  text-align: center;
 }
 /**---------- EXPERIENCE ----------**/
 
@@ -305,7 +303,6 @@ header {
   flex-direction: column;
   padding: 10px;
   background-image: url(../pictures/img/ville.jpg);
-  filter: brightness(80%);
   background-size: cover;
   height: 300px;
   align-content: center;
@@ -314,7 +311,7 @@ header {
 }
 
 .contacterMoi-div {
-  color: rgb(255, 255, 255);
+  color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
   margin: 0rem;
   margin-bottom: 0.5rem;
@@ -323,7 +320,7 @@ header {
 }
 
 .contacterMoi-div .a {
-  color: #110eda;
+  color: white;
 }
 
 /**---------- FOOTER ----------**/
